@@ -7,7 +7,7 @@ Not anymore!
 
 It adds a new line for horizontal coordinates in the scale of the overworld.\
 The only dimension in vanilla this mod affects is the nether (with a scale of 8), but it will work with any custom dimension utilising coordinate scales!\
-![demonstration][https://github.com/Benonardo/Overworld-Coordinates/blob/1.19/demonstration.png]
+![demonstration][https://github.com/Benonardo/Overworld-Coordinates/raw/1.19/demonstration.png]
 
 ## Dependencies
 
