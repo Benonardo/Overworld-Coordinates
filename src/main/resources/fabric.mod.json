@@ -1,38 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "overworld_coordinates",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Overworld Coordinates",
+  "description": "Shows coordinates in different dimensions in the scale of the overworld",
   "authors": [
-    "Me!"
+    "Benonardo"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Benonardo/Overworld-Coordinates"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/overworld_coordinates/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "environment": "client",
+  "entrypoints": {},
   "mixins": [
-    "modid.mixins.json"
+    "overworld_coordinates.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.9",
-    "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

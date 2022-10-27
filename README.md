@@ -1,9 +1,14 @@
-# Fabric Example Mod
+# Overworld Coordinates
 
-## Setup
+Ever had to manually calculate your portal positions for them to line up? Needed a better solution?\
+Not anymore!
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## What this mod does
 
-## License
+It adds a new line for horizontal coordinates in the scale of the overworld.\
+The only dimension in vanilla this mod affects is the nether (with a scale of 8), but it will work with any custom dimension utilising coordinate scales!\
+![demonstration][https://github.com/Benonardo/Overworld-Coordinates/blob/1.19/demonstration.png]
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Dependencies
+
+None! It works out of the box.
