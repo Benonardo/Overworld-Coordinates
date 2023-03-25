@@ -2,9 +2,11 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.benonardo.overworld_coordinates.mixin",
+  "plugin": "com.benonardo.overworld_coordinates.OWCMixinPlugin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [],
   "client": [
-    "DebugHudMixin"
+    "DebugHudMixin",
+    "CoordsModuleMixin"
   ]
 }
