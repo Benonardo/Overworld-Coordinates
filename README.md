@@ -12,3 +12,4 @@ The only dimension in vanilla this mod affects is the nether (with a scale of 8)
 ## Dependencies
 
 None! It works out of the box.
+Although BetterF3 is recommended for a better experience.
