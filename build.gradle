@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.1-SNAPSHOT'
+	id 'fabric-loom' version '1.2-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -29,7 +29,7 @@ dependencies {
 
 	include(implementation(annotationProcessor("com.github.llamalad7.mixinextras:mixinextras-fabric:${project.mixinextras_version}")))
 
-	modImplementation "maven.modrinth:betterf3:${project.betterf3_version}" // not required
+	modImplementation "maven.modrinth:betterf3:${project.betterf3_version}" // not required; broken JiJ, should work anyways
 }
 
 processResources {
